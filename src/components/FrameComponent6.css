@@ -1,0 +1,96 @@
+.organize-your-co3 {
+  position: absolute;
+  top: 19px;
+  left: 96px;
+  font-size: var(--font-size-6xl);
+  font-weight: 600;
+  display: inline-block;
+  width: 241px;
+  height: 47px;
+}
+.employees-child6,
+.label12 {
+  position: relative;
+  width: 17.25px;
+  height: 23.38px;
+  flex-shrink: 0;
+}
+.label12 {
+  font-weight: 600;
+  display: inline-block;
+  width: 258px;
+  height: 27px;
+}
+.employees10,
+.employees11,
+.employees12,
+.employees9 {
+  text-decoration: none;
+  position: absolute;
+  top: 127px;
+  left: 0;
+  width: 408px;
+  height: 83px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: inherit;
+}
+.employees10,
+.employees11,
+.employees12 {
+  cursor: pointer;
+  top: 210px;
+  height: 93px;
+}
+.employees11,
+.employees12 {
+  top: 303px;
+  height: 103px;
+}
+.employees12 {
+  top: 406px;
+}
+.frame-child13,
+.frame-child14,
+.frame-child15 {
+  position: absolute;
+  top: 209.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 409px;
+  height: 1px;
+}
+.frame-child14,
+.frame-child15 {
+  top: 302.5px;
+}
+.frame-child15 {
+  top: 405.5px;
+  width: 409.02px;
+}
+.frame-child16,
+.organize-your-co-group {
+  position: absolute;
+  top: 508px;
+  left: 0;
+  width: 408px;
+  height: 3px;
+}
+.organize-your-co-group {
+  top: 10px;
+  border-radius: 0 var(--br-6xl) var(--br-6xl) 0;
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-white);
+  box-sizing: border-box;
+  height: 987px;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-jost);
+}

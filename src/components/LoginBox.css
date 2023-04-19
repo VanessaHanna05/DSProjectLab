@@ -1,0 +1,112 @@
+.login-box-child {
+  position: absolute;
+  top: -1.5px;
+  left: -1.5px;
+  border-radius: var(--br-28xl);
+  width: 688px;
+  height: 680px;
+}
+.login1,
+.welcome-back {
+  position: absolute;
+  top: 19px;
+  left: 269px;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+  width: 147px;
+  height: 59px;
+}
+.welcome-back {
+  top: 97px;
+  left: 228px;
+  font-size: var(--font-size-11xl);
+  font-weight: 600;
+  width: 230px;
+  height: 58px;
+}
+.login-box-child1,
+.login-box-inner,
+.login-box-item {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 178px;
+  left: 112px;
+}
+.login-box-child1,
+.login-box-inner {
+  top: 279px;
+  left: 107px;
+}
+.login-box-child1 {
+  top: 365px;
+}
+.if-you-are {
+  position: absolute;
+  top: 542px;
+  left: 142px;
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.02em;
+  color: var(--color-black);
+  display: inline-block;
+  width: 402px;
+  height: 24px;
+}
+.group-button,
+.image-24 {
+  position: absolute;
+  top: 608px;
+  left: 290px;
+}
+.image-24 {
+  top: 186px;
+  left: 52px;
+  width: 55px;
+  height: 43px;
+}
+.image-25-icon,
+.image-26-icon,
+.image-27-icon {
+  position: absolute;
+  top: 287px;
+  left: 49px;
+  width: 41px;
+  height: 42px;
+  object-fit: cover;
+}
+.image-26-icon,
+.image-27-icon {
+  top: 189px;
+  left: 52px;
+  width: 38px;
+  height: 36px;
+}
+.image-27-icon {
+  top: 373px;
+  left: 55px;
+  width: 36px;
+  height: 37px;
+}
+.login-box-child2,
+.login-box-child3 {
+  position: absolute;
+  top: 451px;
+  left: 167px;
+  cursor: pointer;
+}
+.login-box-child3 {
+  top: 448px;
+  left: 371px;
+}
+.login-box {
+  position: absolute;
+  top: 174px;
+  left: 444px;
+  width: 685px;
+  height: 677px;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-encode-sans-expanded);
+}

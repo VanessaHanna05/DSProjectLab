@@ -1,0 +1,95 @@
+.new-meeting-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-14xl);
+  background-color: var(--color-white);
+  width: 623px;
+  height: 637px;
+}
+.new-meetings {
+  position: absolute;
+  top: 16px;
+  left: 165.02px;
+  display: inline-block;
+  width: 307.92px;
+  height: 74.12px;
+}
+.new-meeting-item {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 259px;
+  left: 36px;
+}
+.new-meeting-child1,
+.new-meeting-child2,
+.new-meeting-inner {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 161px;
+  left: 40px;
+}
+.new-meeting-child1,
+.new-meeting-child2 {
+  top: 366px;
+  left: 36px;
+}
+.new-meeting-child2 {
+  top: 161px;
+  left: 319px;
+}
+.image-18-icon {
+  position: absolute;
+  top: 234px;
+  left: 559px;
+  width: 20.33px;
+  height: 21.03px;
+  object-fit: cover;
+}
+.image-20-icon,
+.image-21-icon,
+.image-22-icon {
+  position: absolute;
+  top: 428px;
+  left: 543px;
+  width: 36px;
+  height: 23px;
+  object-fit: cover;
+}
+.image-20-icon,
+.image-21-icon {
+  top: 318px;
+  left: 544px;
+  width: 44px;
+  height: 27px;
+}
+.image-21-icon {
+  top: 101px;
+  left: 282px;
+  width: 53px;
+}
+.save-button2 {
+  position: absolute;
+  top: 542px;
+  left: 266px;
+}
+.new-meeting-child3 {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 451px;
+  left: 36px;
+}
+.new-meeting {
+  position: absolute;
+  top: 174px;
+  left: 408px;
+  width: 623px;
+  height: 637px;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-jost);
+}

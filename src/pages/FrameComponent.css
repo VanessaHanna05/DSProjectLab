@@ -1,0 +1,175 @@
+.ellipse-icon,
+.frame-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 373px;
+  height: 241px;
+}
+.ellipse-icon {
+  top: 165.02px;
+  left: 1367px;
+  width: 251px;
+  height: 257px;
+}
+.meetings-summary {
+  position: absolute;
+  top: 35px;
+  left: 567px;
+  font-size: var(--font-size-21xl);
+  font-weight: 600;
+  color: var(--color-white);
+  display: inline-block;
+  width: 359px;
+  height: 80px;
+}
+.meeting-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.meeting-1-at {
+  position: absolute;
+  height: 62.82%;
+  width: 89.04%;
+  top: 24.36%;
+  left: 10.96%;
+  font-weight: 600;
+  display: inline-block;
+}
+.image-23-icon {
+  position: absolute;
+  height: 51.28%;
+  width: 5.39%;
+  top: 16.67%;
+  right: 92.49%;
+  bottom: 32.05%;
+  left: 2.12%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.meeting,
+.meeting1,
+.meeting2,
+.meeting3,
+.meeting4,
+.meeting5,
+.meeting6,
+.meeting7 {
+  position: absolute;
+  top: 425px;
+  left: 913px;
+  border-radius: var(--br-4xs);
+  width: 519px;
+  height: 78px;
+}
+.meeting1:hover,
+.meeting2:hover,
+.meeting3:hover,
+.meeting:hover {
+  border: 1px solid var(--color-dodgerblue);
+  box-sizing: border-box;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.meeting1,
+.meeting2,
+.meeting3,
+.meeting4,
+.meeting5,
+.meeting6,
+.meeting7 {
+  top: 547px;
+}
+.meeting2,
+.meeting3,
+.meeting4,
+.meeting5,
+.meeting6,
+.meeting7 {
+  top: 669px;
+  left: 921px;
+}
+.meeting3,
+.meeting4,
+.meeting5,
+.meeting6,
+.meeting7 {
+  top: 303px;
+  left: 913px;
+}
+.meeting4,
+.meeting5,
+.meeting6,
+.meeting7 {
+  top: 425px;
+  left: 100px;
+}
+.meeting4:hover,
+.meeting5:hover,
+.meeting6:hover,
+.meeting7:hover {
+  border: 1px solid var(--color-cornflowerblue);
+  box-sizing: border-box;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.meeting5,
+.meeting6,
+.meeting7 {
+  top: 547px;
+}
+.meeting6,
+.meeting7 {
+  top: 669px;
+  left: 108px;
+}
+.meeting7 {
+  top: 303px;
+  left: 100px;
+}
+.frame-child1,
+.frame-child2 {
+  position: absolute;
+  top: 0;
+  left: 983px;
+  width: 302px;
+  height: 143px;
+}
+.frame-child2 {
+  top: 615.75px;
+  left: 54.1px;
+  width: 223.04px;
+  height: 225.44px;
+}
+.add-project,
+.frame-child3 {
+  position: absolute;
+  top: 871px;
+  left: 678px;
+}
+.frame-child3 {
+  top: 881px;
+  left: 1245px;
+  width: 279px;
+  height: 143px;
+}
+.vector-root {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-jost);
+}

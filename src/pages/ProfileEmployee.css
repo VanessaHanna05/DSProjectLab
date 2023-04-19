@@ -1,0 +1,86 @@
+.background-child10,
+.background-child11,
+.background-child12,
+.background-child13 {
+  position: absolute;
+  top: 403.14px;
+  left: 569px;
+  border-radius: var(--br-29xl);
+  width: 291px;
+  height: 231px;
+  transform: rotate(-36.51deg);
+  transform-origin: 0 0;
+}
+.background-child10 {
+  background: linear-gradient(179.84deg, #7bb072, #c7dcdc 49.18%, #c7dcdc);
+}
+.background-child11,
+.background-child12,
+.background-child13 {
+  background: linear-gradient(179.84deg, #3b597d, #888c8c 49.18%, #1f282d);
+}
+.background-child12,
+.background-child13 {
+  top: 338.61px;
+  left: 0;
+  width: 397.67px;
+  height: 402.47px;
+}
+.background-child13 {
+  top: 111.02px;
+  left: 585px;
+  width: 186.59px;
+  height: 178.77px;
+}
+.background2,
+.my-profile {
+  position: absolute;
+  top: 178px;
+  left: 597px;
+  width: 940.33px;
+  height: 662.09px;
+}
+.my-profile {
+  top: 9px;
+  left: 554px;
+  font-weight: 600;
+  display: inline-block;
+  width: 330px;
+  height: 60px;
+}
+.save-button1 {
+  position: absolute;
+  top: 638px;
+  left: 439px;
+}
+.back,
+.back-to-login {
+  position: absolute;
+  width: 140px;
+  height: 35px;
+}
+.back-to-login {
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.back {
+  top: 949px;
+  left: 31px;
+  cursor: pointer;
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+}
+.profile-employee {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-26xl);
+  color: #fcfcfc;
+  font-family: var(--font-jost);
+}

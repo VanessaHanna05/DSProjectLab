@@ -1,0 +1,147 @@
+.project-name8 {
+  position: absolute;
+  top: 6px;
+  left: 38px;
+  font-weight: 600;
+  display: inline-block;
+  width: 255px;
+  height: 32px;
+}
+.project-name-wrapper5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-2xl) var(--br-2xl) 0 0;
+  background-color: var(--color-crimson);
+  width: 332px;
+  height: 33px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.client-demo-child45 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+}
+.benefits33 {
+  text-decoration: underline;
+}
+.benefits32 {
+  height: 18.92%;
+  width: 91.15%;
+  top: 68.92%;
+  left: 4.13%;
+}
+.benefits32,
+.client-name24,
+.location24 {
+  position: absolute;
+  font-weight: 600;
+  display: inline-block;
+}
+.client-name24 {
+  height: 22.3%;
+  width: 55.46%;
+  top: 11.49%;
+  left: 21.24%;
+  font-size: var(--font-size-xl);
+  text-align: center;
+}
+.location24 {
+  height: 18.92%;
+  width: 91.15%;
+  top: 50%;
+  left: 4.13%;
+  text-decoration: underline;
+}
+.checkbox-1-icon24,
+.client-demo-child46 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.client-demo-child46 {
+  height: 22.3%;
+  width: 11.21%;
+  top: 11.49%;
+  right: 80.24%;
+  bottom: 66.22%;
+  left: 8.55%;
+  border-radius: var(--br-4xs);
+}
+.checkbox-1-icon24 {
+  height: 11.49%;
+  width: 4.13%;
+  top: 16.89%;
+  right: 26.84%;
+  bottom: 71.62%;
+  left: 69.03%;
+}
+.client-demo24 {
+  position: absolute;
+  top: 72px;
+  left: 15px;
+  width: 297px;
+  height: 135px;
+}
+.client-demo24:hover {
+  background-color: var(--color-honeydew);
+}
+.client-demo-child48 {
+  position: absolute;
+  height: 22.3%;
+  width: 11.21%;
+  top: 11.49%;
+  right: 80.24%;
+  bottom: 66.22%;
+  left: 8.55%;
+  border-radius: var(--br-4xs);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.client-demo25,
+.client-demo26,
+.project8 {
+  position: absolute;
+  top: 236px;
+  left: 13px;
+  width: 299px;
+  height: 133px;
+}
+.client-demo26,
+.project8 {
+  top: 403px;
+  height: 130px;
+}
+.project8 {
+  top: 199px;
+  left: 426px;
+  border-radius: var(--br-2xl);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  width: 332px;
+  height: 570px;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--color-black);
+  font-family: var(--font-jost);
+}
+.project8:hover {
+  border: 1px solid var(--color-lightblue);
+  box-sizing: border-box;
+}

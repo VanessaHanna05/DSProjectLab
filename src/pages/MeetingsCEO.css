@@ -1,0 +1,197 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.weekly-meetings {
+  position: absolute;
+  top: 9px;
+  left: 706.38px;
+  background: linear-gradient(180deg, #000, transparent);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  width: 392.54px;
+  height: 82px;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.meeting-page {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 1098.92px;
+  height: 1002px;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-jim-nightshade);
+}
+.meeting-child5 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-3xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.meeting-1-at8 {
+  position: absolute;
+  height: 62.82%;
+  width: 89.04%;
+  top: 24.36%;
+  left: 10.96%;
+  font-weight: 600;
+  display: inline-block;
+}
+.image-23-icon8 {
+  position: absolute;
+  height: 51.28%;
+  width: 5.4%;
+  top: 16.67%;
+  right: 92.49%;
+  bottom: 32.05%;
+  left: 2.12%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.meeting10,
+.meeting11,
+.meeting8,
+.meeting9 {
+  position: absolute;
+  top: 178px;
+  left: 1036px;
+  border-radius: var(--br-4xs);
+  width: 347px;
+  height: 78px;
+}
+.meeting10:hover,
+.meeting11:hover,
+.meeting12:hover,
+.meeting13:hover,
+.meeting14:hover,
+.meeting15:hover,
+.meeting16:hover,
+.meeting17:hover,
+.meeting18:hover,
+.meeting19:hover,
+.meeting8:hover,
+.meeting9:hover {
+  background-color: var(--color-white);
+  animation: 2s ease 0s 1 normal none scale-up;
+  opacity: 1;
+}
+.meeting10,
+.meeting11,
+.meeting9 {
+  top: 186px;
+  left: 492px;
+}
+.meeting10,
+.meeting11 {
+  top: 300px;
+  left: 1036px;
+}
+.meeting11 {
+  top: 304px;
+  left: 499px;
+}
+.meeting12,
+.meeting13,
+.meeting14,
+.meeting15,
+.meeting16,
+.meeting17,
+.meeting18,
+.meeting19 {
+  position: absolute;
+  top: 410px;
+  left: 1036px;
+  border-radius: var(--br-4xs);
+  width: 347px;
+  height: 78px;
+}
+.meeting13,
+.meeting14,
+.meeting15,
+.meeting16,
+.meeting17,
+.meeting18,
+.meeting19 {
+  left: 499px;
+}
+.meeting14,
+.meeting15,
+.meeting16,
+.meeting17,
+.meeting18,
+.meeting19 {
+  top: 526px;
+  left: 1036px;
+}
+.meeting15,
+.meeting16,
+.meeting17,
+.meeting18,
+.meeting19 {
+  top: 645px;
+}
+.meeting16,
+.meeting17,
+.meeting18,
+.meeting19 {
+  top: 762px;
+}
+.meeting17,
+.meeting18,
+.meeting19 {
+  top: 526px;
+  left: 492px;
+}
+.meeting18,
+.meeting19 {
+  top: 644px;
+}
+.meeting19 {
+  top: 762px;
+}
+.image-23-icon20 {
+  position: absolute;
+  height: 51.28%;
+  width: 5.39%;
+  top: 16.67%;
+  right: 92.49%;
+  bottom: 32.05%;
+  left: 2.12%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.meeting20 {
+  position: absolute;
+  top: -180px;
+  left: 1171px;
+  width: 347px;
+  height: 78px;
+}
+.meetings-ceo {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-jost);
+}

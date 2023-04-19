@@ -1,0 +1,77 @@
+.background-child4,
+.background-child5,
+.background-child6,
+.background-child7,
+.background-child8,
+.background-child9 {
+  position: absolute;
+  top: 706.14px;
+  left: 569px;
+  border-radius: var(--br-29xl);
+  width: 291px;
+  height: 231px;
+  transform: rotate(-36.51deg);
+  transform-origin: 0 0;
+}
+.background-child4 {
+  background: linear-gradient(179.84deg, #7bb072, #c7dcdc 49.18%, #c7dcdc);
+}
+.background-child5,
+.background-child6,
+.background-child7,
+.background-child8,
+.background-child9 {
+  background: linear-gradient(179.84deg, #3b597d, #888c8c 49.18%, #1f282d);
+}
+.background-child6,
+.background-child7,
+.background-child8,
+.background-child9 {
+  top: 1058.93px;
+  left: 221px;
+  width: 322.58px;
+  height: 302.08px;
+}
+.background-child7,
+.background-child8,
+.background-child9 {
+  top: 641.61px;
+  left: 0;
+  width: 397.67px;
+  height: 402.47px;
+}
+.background-child8,
+.background-child9 {
+  top: 414.02px;
+  left: 585px;
+  width: 186.59px;
+  height: 178.77px;
+}
+.background-child9 {
+  top: 125.22px;
+  left: 370px;
+  width: 210.46px;
+  height: 203px;
+}
+.background1 {
+  position: absolute;
+  top: -125px;
+  left: 597px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  filter: blur(6px);
+  width: 940.33px;
+  height: 1301.72px;
+}
+.save-button {
+  position: absolute;
+  top: 708px;
+  left: 676px;
+  cursor: pointer;
+}
+.background-root {
+  position: relative;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+}

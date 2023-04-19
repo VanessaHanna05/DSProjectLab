@@ -1,0 +1,142 @@
+.projects-box-child,
+.projects-box-item {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  border-radius: var(--br-2xl);
+  background-color: var(--color-white);
+  width: 415px;
+  height: 291.08px;
+}
+.projects-box-item {
+  top: 0;
+  border-radius: var(--br-2xl) var(--br-2xl) 0 0;
+  border-bottom: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 47.45px;
+}
+.my-projects {
+  position: absolute;
+  top: 7.3px;
+  left: 69.6px;
+  font-size: var(--font-size-11xl);
+  font-weight: 500;
+  display: inline-block;
+  width: 274.09px;
+  height: 32.85px;
+}
+.box-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-10xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+}
+.box,
+.project-1-name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 303.22px;
+  height: 37.77px;
+}
+.project-1-name {
+  top: 5.18px;
+  font-weight: 500;
+  display: inline-block;
+  height: 31.85px;
+}
+.box-item,
+.project-1 {
+  position: absolute;
+  top: 65.89px;
+  left: 55px;
+  width: 303.22px;
+  height: 37.77px;
+}
+.box-item {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-8xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+}
+.box1 {
+  top: 0;
+  left: 0;
+  height: 39.99px;
+}
+.box1,
+.project-2,
+.project-2-name {
+  position: absolute;
+  width: 303px;
+}
+.project-2-name {
+  top: 5.6px;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+  height: 34.39px;
+}
+.project-2 {
+  top: 106.21px;
+  left: 59px;
+  height: 39.99px;
+}
+.box2,
+.project-3-name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 303px;
+}
+.box2 {
+  border-radius: var(--br-41xl);
+  height: 38.35px;
+}
+.project-3-name {
+  font-weight: 500;
+  display: inline-block;
+  height: 33.44px;
+}
+.add-project2,
+.project-3 {
+  position: absolute;
+  left: 59px;
+}
+.project-3 {
+  top: 150.46px;
+  width: 303px;
+  height: 38.35px;
+}
+.add-project2 {
+  top: 210.45px;
+}
+.add-project3 {
+  position: absolute;
+  top: calc(50% + 60.46px);
+  left: calc(50% + 42.5px);
+}
+.projects-box {
+  position: absolute;
+  top: 194px;
+  left: 801px;
+  width: 415px;
+  height: 293.08px;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-jost);
+}
