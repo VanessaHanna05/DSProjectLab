@@ -41,10 +41,9 @@ const FrameComponent5 = ({
         <div className="nav-item" />
         <div className="nav-inner" />
         <img className="nav-child1" alt="" src="/line-5.svg" />
-        <img
+        <Link
           className="menu-burger-2-13"
-          alt=""
-          src="/menuburger-2-1@2x.png"
+          to="/home-ceo"
           onClick={onMenuBurger21Click}
         />
       </div>

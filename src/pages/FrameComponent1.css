@@ -11,13 +11,13 @@
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: var(--br-2xl) var(--br-2xl) 0 0;
-  background-color: var(--color-steelblue-100);
+  border-radius: 21px 21px 0 0;
+  background-color: #3b597d;
   width: 332px;
   height: 33px;
   text-align: center;
-  font-size: var(--font-size-xl);
-  color: var(--color-white);
+  font-size: 20px;
+  color: #fff;
 }
 .client-demo-child {
   position: absolute;
@@ -27,9 +27,9 @@
   right: 0;
   bottom: 0;
   left: 0;
-  border-radius: var(--br-8xs);
-  background-color: var(--color-white);
-  border: 1px solid var(--color-gray-400);
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.24);
   box-sizing: border-box;
 }
 .benefits {
@@ -50,7 +50,7 @@
   width: 55.46%;
   top: 11.49%;
   left: 21.24%;
-  font-size: var(--font-size-xl);
+  font-size: 20px;
   text-align: center;
 }
 .location {
@@ -75,7 +75,7 @@
   right: 80.24%;
   bottom: 66.22%;
   left: 8.55%;
-  border-radius: var(--br-4xs);
+  border-radius: 9px;
 }
 .checkbox-1-icon {
   height: 11.49%;
@@ -103,7 +103,7 @@
   right: 80.24%;
   bottom: 66.22%;
   left: 8.55%;
-  border-radius: var(--br-4xs);
+  border-radius: 9px;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -123,18 +123,22 @@
   top: 403px;
   height: 130px;
 }
+.project {
+  top: calc(50% + 7px);
+  left: calc(50% - 896px);
+}
 .project,
 .project1,
 .project2,
 .project3,
 .project4,
 .project5,
-.project6 {
+.project6,
+.project7,
+.project8 {
   position: absolute;
-  top: 519px;
-  left: 44px;
-  border-radius: var(--br-2xl);
-  background-color: var(--color-whitesmoke-100);
+  border-radius: 21px;
+  background-color: #f8f8f8;
   width: 332px;
   height: 241px;
 }
@@ -144,53 +148,50 @@
 .project4:hover,
 .project5:hover,
 .project6:hover,
+.project7:hover,
+.project8:hover,
 .project:hover {
   box-shadow: 0 4px 4px rgba(250, 250, 11, 0.91);
 }
 .project1,
-.project2,
-.project3,
-.project4,
-.project5,
-.project6 {
-  top: 223px;
-  left: 404px;
+.project2 {
+  top: calc(50% - 289px);
+  left: calc(50% - 536px);
 }
-.project2,
-.project3,
-.project4,
-.project5,
-.project6 {
-  top: 522px;
+.project2 {
+  top: calc(50% + 10px);
 }
 .project3,
-.project4,
-.project5,
-.project6 {
-  top: 223px;
-  left: 756px;
+.project4 {
+  top: calc(50% - 289px);
+  left: calc(50% - 184px);
 }
-.project4,
-.project5,
-.project6 {
-  top: 519px;
+.project4 {
+  top: calc(50% + 7px);
 }
-.project5,
-.project6 {
-  top: 221px;
-  left: 1119px;
+.project5 {
+  top: calc(50% - 291px);
+  left: calc(50% + 179px);
 }
 .project6 {
-  top: 522px;
-  left: 1113px;
+  top: calc(50% - 294px);
+  left: calc(50% + 548px);
+}
+.project7 {
+  top: calc(50% + 10px);
+  left: calc(50% + 173px);
+}
+.project8 {
+  top: calc(50% + 7px);
+  left: calc(50% + 542px);
 }
 .projects-summary {
   position: absolute;
-  top: 19px;
-  left: 490px;
-  font-size: var(--font-size-21xl);
+  top: calc(50% - 460px);
+  left: calc(50% - 323px);
+  font-size: 40px;
   font-weight: 600;
-  color: var(--color-white);
+  color: #fff;
   text-align: center;
   display: inline-block;
   width: 604px;
@@ -198,17 +199,17 @@
 }
 .add-project1 {
   position: absolute;
-  top: 915px;
-  left: 698px;
+  top: calc(50% + 417px);
+  left: calc(50% - 69px);
 }
-.project-parent {
+.project-summary-employee {
   position: relative;
-  background-color: var(--color-gray-100);
+  background-color: #1f282d;
   width: 100%;
   height: 1024px;
   overflow: hidden;
   text-align: left;
-  font-size: var(--font-size-smi);
-  color: var(--color-black);
-  font-family: var(--font-jost);
+  font-size: 13px;
+  color: #000;
+  font-family: Jost;
 }

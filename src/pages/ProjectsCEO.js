@@ -26,17 +26,17 @@ const ProjectsCEO = () => {
           <img className="employees-child" alt="" src="/polygon-3.svg" />
           <div className="label4">Projects</div>
         </div>
-        <div className="employees2">
+        <Link className="employees2" to="/meetings-ceo">
           <img className="employees-child" alt="" src="/polygon-3.svg" />
           <div className="label4">Meetings</div>
-        </div>
-        <div className="employees3">
+        </Link>
+        <Link className="employees3" to="/profile-ceo">
           <img className="employees-child" alt="" src="/polygon-3.svg" />
           <div className="label4">Profile</div>
-        </div>
+        </Link>
         <div className="line-div" />
-        <div className="frame-child4" />
-        <div className="frame-child5" />
+        <div className="frame-child10" />
+        <div className="frame-child11" />
         <img className="line-icon" alt="" src="/line-5.svg" />
         <img
           className="menu-burger-2-1"
@@ -46,8 +46,55 @@ const ProjectsCEO = () => {
         />
       </div>
       <Project1 />
-      <Project1 checkbox1Left="767px" clientDemoBackgroundColor="#1d67d6" />
-      <Project1 checkbox1Left="1108px" clientDemoBackgroundColor="#d61dad" />
+      <Project1 checkbox1Left="unset" clientDemoBackgroundColor="#1d67d6" />
+      <Project1 checkbox1Left="unset" clientDemoBackgroundColor="#d61dad" />
+      <div className="project9">
+        <div className="project-name-wrapper6">
+          <div className="project-name9">Project Name</div>
+        </div>
+        <div className="client-demo27">
+          <div className="client-demo-child51" />
+          <div className="benefits36">
+            <span className="benefits37">Benefits</span>:
+          </div>
+          <div className="client-name27">Client Name</div>
+          <div className="location27">{`location: `}</div>
+          <img
+            className="client-demo-child52"
+            alt=""
+            src="/rectangle-19@2x.png"
+          />
+          <img className="checkbox-1-icon27" alt="" src="/checkbox-1@2x.png" />
+        </div>
+        <div className="client-demo28">
+          <div className="client-demo-child51" />
+          <div className="benefits36">
+            <span className="benefits37">Contributions</span>:
+          </div>
+          <div className="client-name27">Employee 1</div>
+          <div className="location27">Position:</div>
+          <img
+            className="client-demo-child54"
+            alt=""
+            src="/rectangle-191@2x.png"
+          />
+          <img className="checkbox-1-icon27" alt="" src="/checkbox-11@2x.png" />
+        </div>
+        <div className="client-demo29">
+          <div className="client-demo-child51" />
+          <div className="benefits36">
+            <span className="benefits37">Contributions</span>:
+          </div>
+          <div className="client-name27">Employee 2</div>
+          <div className="location27">Position:</div>
+          <img
+            className="client-demo-child54"
+            alt=""
+            src="/rectangle-192@2x.png"
+          />
+          <img className="checkbox-1-icon27" alt="" src="/checkbox-12@2x.png" />
+        </div>
+      </div>
     </div>
   );
 };

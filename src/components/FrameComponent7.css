@@ -50,7 +50,7 @@
   position: absolute;
   top: 19px;
   left: 96px;
-  font-size: var(--font-size-6xl);
+  font-size: 25px;
   font-weight: 600;
   display: inline-block;
   width: 241px;
@@ -122,15 +122,15 @@
   justify-content: flex-start;
   color: inherit;
 }
+.employees15 {
+  top: 303px;
+  height: 103px;
+}
 .employees14:hover,
 .employees15:hover,
 .employees16:hover {
   animation: 1s ease 0s infinite normal none pulsate;
   opacity: 1;
-}
-.employees15 {
-  top: 303px;
-  height: 103px;
 }
 .employees-child13 {
   position: relative;
@@ -153,27 +153,34 @@
   cursor: pointer;
   color: inherit;
 }
-.frame-child17,
-.frame-child18,
-.frame-child19 {
+.frame-child16 {
   position: absolute;
   top: 209.5px;
   left: -0.5px;
-  border-top: 1px solid var(--color-black);
+  border-top: 1px solid #000;
   box-sizing: border-box;
   width: 409px;
   height: 1px;
 }
-.frame-child18,
-.frame-child19 {
+.frame-child17 {
+  width: 409px;
+}
+.frame-child17,
+.frame-child18 {
+  position: absolute;
+  left: -0.5px;
+  border-top: 1px solid #000;
+  box-sizing: border-box;
+  height: 1px;
+}
+.frame-child17 {
   top: 302.5px;
 }
-.frame-child19 {
+.frame-child18 {
   top: 405.5px;
   width: 409.02px;
 }
-.frame-child20,
-.menu-burger-1-1-parent {
+.frame-child19 {
   position: absolute;
   top: 508px;
   left: 0;
@@ -183,15 +190,18 @@
 .menu-burger-1-1-parent {
   cursor: pointer;
   text-decoration: none;
-  top: 10px;
-  border-radius: 0 var(--br-6xl) var(--br-6xl) 0;
-  background-color: var(--color-whitesmoke-300);
-  border: 1px solid var(--color-white);
+  position: absolute;
+  top: calc(50% - 502px);
+  left: calc(50% - 940px);
+  border-radius: 0 25px 25px 0;
+  background-color: #e7ebed;
+  border: 1px solid #fff;
   box-sizing: border-box;
+  width: 408px;
   height: 1002px;
   overflow: hidden;
   text-align: center;
-  font-size: var(--font-size-xl);
-  color: var(--color-black);
-  font-family: var(--font-jost);
+  font-size: 20px;
+  color: #000;
+  font-family: Jost;
 }

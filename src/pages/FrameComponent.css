@@ -1,24 +1,24 @@
-.ellipse-icon,
-.frame-inner {
+.frame-child6,
+.frame-child7 {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: calc(50% - 512px);
+  left: calc(50% - 940px);
   width: 373px;
   height: 241px;
 }
-.ellipse-icon {
-  top: 165.02px;
-  left: 1367px;
+.frame-child7 {
+  top: calc(50% - 346.98px);
+  left: calc(50% + 427px);
   width: 251px;
   height: 257px;
 }
 .meetings-summary {
   position: absolute;
-  top: 35px;
-  left: 567px;
-  font-size: var(--font-size-21xl);
+  top: calc(50% - 433px);
+  left: calc(50% - 153px);
+  font-size: 40px;
   font-weight: 600;
-  color: var(--color-white);
+  color: #fff;
   display: inline-block;
   width: 359px;
   height: 80px;
@@ -31,7 +31,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  border-radius: var(--br-3xl);
+  border-radius: 22px;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -58,118 +58,139 @@
   max-height: 100%;
   object-fit: cover;
 }
-.meeting,
-.meeting1,
-.meeting2,
-.meeting3,
-.meeting4,
-.meeting5,
-.meeting6,
-.meeting7 {
+.meeting {
   position: absolute;
-  top: 425px;
-  left: 913px;
-  border-radius: var(--br-4xs);
+  top: calc(50% - 330px);
+  left: calc(50% + 385px);
+  border-radius: 9px;
   width: 519px;
   height: 78px;
 }
 .meeting1:hover,
 .meeting2:hover,
 .meeting3:hover,
+.meeting4:hover,
+.meeting5:hover,
+.meeting6:hover,
+.meeting7:hover,
+.meeting8:hover,
 .meeting:hover {
-  border: 1px solid var(--color-dodgerblue);
+  border: 1px solid #1f85ec;
   box-sizing: border-box;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.meeting1 {
+  top: calc(50% - 83px);
+  left: calc(50% - 228px);
 }
 .meeting1,
 .meeting2,
 .meeting3,
 .meeting4,
 .meeting5,
-.meeting6,
-.meeting7 {
-  top: 547px;
+.meeting6 {
+  position: absolute;
+  border-radius: 9px;
+  width: 519px;
+  height: 78px;
 }
-.meeting2,
-.meeting3,
-.meeting4,
-.meeting5,
-.meeting6,
-.meeting7 {
-  top: 669px;
-  left: 921px;
+.meeting2 {
+  top: calc(50% - 86px);
+  left: calc(50% + 385px);
 }
-.meeting3,
-.meeting4,
-.meeting5,
-.meeting6,
-.meeting7 {
-  top: 303px;
-  left: 913px;
+.meeting3 {
+  top: calc(50% + 39px);
+  left: calc(50% - 228px);
 }
-.meeting4,
-.meeting5,
-.meeting6,
-.meeting7 {
-  top: 425px;
-  left: 100px;
+.meeting4 {
+  top: calc(50% + 36px);
+  left: calc(50% + 385px);
 }
-.meeting4:hover,
-.meeting5:hover,
-.meeting6:hover,
-.meeting7:hover {
-  border: 1px solid var(--color-cornflowerblue);
+.meeting5 {
+  top: calc(50% + 161px);
+  left: calc(50% - 220px);
+}
+.meeting6 {
+  top: calc(50% + 158px);
+  left: calc(50% + 393px);
+}
+.meeting10,
+.meeting11,
+.meeting12 {
+  position: absolute;
+  border-radius: 9px;
+  width: 519px;
+  height: 78px;
+}
+.meeting7 {
+  top: calc(50% - 205px);
+  left: calc(50% - 228px);
+}
+.meeting7,
+.meeting8,
+.meeting9 {
+  position: absolute;
+  border-radius: 9px;
+  width: 519px;
+  height: 78px;
+}
+.meeting8 {
+  top: calc(50% - 208px);
+  left: calc(50% + 385px);
+}
+.meeting10,
+.meeting9 {
+  left: calc(50% - 840px);
+}
+.meeting9 {
+  top: calc(50% - 87px);
+}
+.meeting10:hover,
+.meeting11:hover,
+.meeting12:hover,
+.meeting9:hover {
+  border: 1px solid #17a6fe;
   box-sizing: border-box;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
-.meeting5,
-.meeting6,
-.meeting7 {
-  top: 547px;
+.meeting10 {
+  top: calc(50% + 35px);
 }
-.meeting6,
-.meeting7 {
-  top: 669px;
-  left: 108px;
+.meeting11 {
+  top: calc(50% + 157px);
+  left: calc(50% - 832px);
 }
-.meeting7 {
-  top: 303px;
-  left: 100px;
+.meeting12 {
+  top: calc(50% - 209px);
+  left: calc(50% - 840px);
 }
-.frame-child1,
-.frame-child2 {
+.frame-child8 {
   position: absolute;
-  top: 0;
-  left: 983px;
-  width: 302px;
-  height: 143px;
-}
-.frame-child2 {
-  top: 615.75px;
-  left: 54.1px;
+  top: calc(50% + 103.75px);
+  left: calc(50% - 885.9px);
   width: 223.04px;
   height: 225.44px;
 }
 .add-project,
-.frame-child3 {
+.frame-child9 {
   position: absolute;
-  top: 871px;
-  left: 678px;
+  top: calc(50% + 427px);
+  left: calc(50% - 69px);
 }
-.frame-child3 {
-  top: 881px;
-  left: 1245px;
+.frame-child9 {
+  top: calc(50% + 369px);
+  left: calc(50% + 305px);
   width: 279px;
   height: 143px;
 }
 .vector-root {
   position: relative;
-  background-color: var(--color-gray-100);
+  background-color: #1f282d;
   width: 100%;
   height: 1024px;
   overflow: hidden;
   text-align: left;
-  font-size: var(--font-size-xl);
-  color: var(--color-black);
-  font-family: var(--font-jost);
+  font-size: 20px;
+  color: #000;
+  font-family: Jost;
 }

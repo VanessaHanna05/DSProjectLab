@@ -120,10 +120,10 @@ const FrameComponent7 = () => {
         <img className="employees-child13" alt="" src="/polygon-32.svg" />
         <div className="label16">Profile</div>
       </a>
+      <div className="frame-child16" />
       <div className="frame-child17" />
       <div className="frame-child18" />
-      <div className="frame-child19" />
-      <img className="frame-child20" alt="" src="/line-5.svg" />
+      <img className="frame-child19" alt="" src="/line-5.svg" />
     </Link>
   );
 };

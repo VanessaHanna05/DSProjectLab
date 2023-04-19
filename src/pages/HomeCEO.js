@@ -20,7 +20,7 @@ const HomeCEO = () => {
       <img className="design-icon" alt="" src="/design@2x.png" />
       <div className="heading">
         <div className="welcome">{`Welcome! `}</div>
-        <div className="ceo">CEO</div>
+        <div className="ceo1">CEO</div>
         <div className="image-5default">
           <img className="image-5-icon" alt="" src="/image-5@2x.png" />
         </div>
@@ -33,7 +33,6 @@ const HomeCEO = () => {
       >
         <Icon>arrow_forward_sharp</Icon>
       </IconButton>
-      <img className="home-ceo-child" alt="" src="/polygon-2.svg" />
       <img className="clockvariant4-icon" alt="" />
       <img className="clock-icon" alt="" src="/clock.svg" />
       <img className="image-3-icon" alt="" src="/image-3@2x.png" />

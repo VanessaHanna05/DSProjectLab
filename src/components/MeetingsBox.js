@@ -25,11 +25,11 @@ const MeetingsBox = () => {
       >
         View all
       </Button>
-      <div className="meeting22">
+      <div className="meeting32">
         <img className="image-14-icon" alt="" src="/image-14@2x.png" />
         <div className="time-0000-date">time: 00:00 date: dd/mm</div>
       </div>
-      <div className="meeting23">
+      <div className="meeting33">
         <img className="image-14-icon" alt="" src="/image-14@2x.png" />
         <div className="time-0000-date">time: 00:00 date: dd/mm</div>
       </div>

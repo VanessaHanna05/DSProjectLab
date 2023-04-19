@@ -2,7 +2,7 @@
   position: absolute;
   top: 0;
   left: 96px;
-  font-size: var(--font-size-6xl);
+  font-size: 25px;
   font-weight: 600;
   display: inline-block;
   width: 241px;
@@ -57,19 +57,21 @@
 .employees8 {
   top: 387px;
 }
+.nav-child {
+  top: 190.5px;
+  width: 409px;
+}
 .nav-child,
 .nav-inner,
 .nav-item {
   position: absolute;
-  top: 190.5px;
   left: -0.5px;
-  border-top: 1px solid var(--color-black);
+  border-top: 1px solid #000;
   box-sizing: border-box;
-  width: 409px;
   height: 1px;
 }
-.nav-inner,
 .nav-item {
+  width: 409px;
   top: 283.5px;
 }
 .nav-inner {
@@ -84,13 +86,17 @@
   height: 3px;
 }
 .menu-burger-2-13 {
+  cursor: pointer;
+  text-decoration: none;
   position: absolute;
   top: 6px;
   left: 12px;
   width: 62px;
   height: 51px;
-  object-fit: cover;
-  cursor: pointer;
+  background-image: url(/public/menuburger-2-1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 .nav,
 .nav-wrapper {
@@ -102,16 +108,16 @@
 }
 .nav-wrapper {
   top: 10px;
-  border-radius: 0 var(--br-6xl) var(--br-6xl) 0;
-  background-color: var(--color-gray-100);
-  border: 1px solid var(--color-white);
+  border-radius: 0 25px 25px 0;
+  background-color: #1f282d;
+  border: 1px solid #fff;
   box-sizing: border-box;
   width: 408px;
   height: 1004px;
   overflow: hidden;
   cursor: pointer;
   text-align: center;
-  font-size: var(--font-size-xl);
-  color: var(--color-white);
-  font-family: var(--font-jost);
+  font-size: 20px;
+  color: #fff;
+  font-family: Jost;
 }

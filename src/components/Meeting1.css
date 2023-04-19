@@ -1,4 +1,4 @@
-.meeting-child18 {
+.meeting-child28 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -6,12 +6,12 @@
   right: 0;
   bottom: 0;
   left: 0;
-  border-radius: var(--br-3xl);
+  border-radius: 22px;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
 }
-.meeting-1-at21 {
+.meeting-1-at31 {
   position: absolute;
   height: 62.82%;
   width: 89.04%;
@@ -20,7 +20,7 @@
   font-weight: 600;
   display: inline-block;
 }
-.image-23-icon21 {
+.image-23-icon31 {
   position: absolute;
   height: 51.28%;
   width: 5.39%;
@@ -33,20 +33,20 @@
   max-height: 100%;
   object-fit: cover;
 }
-.meeting21 {
+.meeting31 {
   position: absolute;
-  top: 181px;
-  left: 913px;
-  border-radius: var(--br-4xs);
+  top: calc(50% - 327px);
+  left: calc(50% - 228px);
+  border-radius: 9px;
   width: 519px;
   height: 78px;
   text-align: left;
-  font-size: var(--font-size-xl);
-  color: var(--color-black);
-  font-family: var(--font-jost);
+  font-size: 20px;
+  color: #000;
+  font-family: Jost;
 }
-.meeting21:hover {
-  border: 1px solid var(--color-dodgerblue);
+.meeting31:hover {
+  border: 1px solid #1f85ec;
   box-sizing: border-box;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }

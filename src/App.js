@@ -5,6 +5,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import HomePage from "./pages/HomePage";
+import Signup from "./pages/Signup";
 import FrameComponent from "./pages/FrameComponent";
 import FrameComponent1 from "./pages/FrameComponent1";
 import FrameComponent2 from "./pages/FrameComponent2";
@@ -14,10 +15,9 @@ import ProfileCEO from "./pages/ProfileCEO";
 import MeetingsCEO from "./pages/MeetingsCEO";
 import ProjectsCEO from "./pages/ProjectsCEO";
 import EmployeesCEO from "./pages/EmployeesCEO";
-import NavigateCEO from "./pages/NavigateCEO";
 import HomeCEO from "./pages/HomeCEO";
-import Signup from "./pages/Signup";
 import Login from "./pages/Login";
+import NavigateCEO from "./pages/NavigateCEO";
 import NewPage from "./pages/NewPage";
 import { useEffect } from "react";
 
@@ -41,19 +41,23 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/signup":
+        title = "";
+        metaDescription = "";
+        break;
       case "/frame-16":
         title = "";
         metaDescription = "";
         break;
-      case "/frame-15":
+      case "/project-summary-employee":
         title = "";
         metaDescription = "";
         break;
-      case "/frame-14":
+      case "/new-meeting":
         title = "";
         metaDescription = "";
         break;
-      case "/frame-13":
+      case "/new-project":
         title = "";
         metaDescription = "";
         break;
@@ -77,19 +81,15 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/navigate-ceo":
-        title = "";
-        metaDescription = "";
-        break;
       case "/home-ceo":
         title = "";
         metaDescription = "";
         break;
-      case "/signup":
+      case "/login":
         title = "";
         metaDescription = "";
         break;
-      case "/login":
+      case "/navigate-ceo":
         title = "";
         metaDescription = "";
         break;
@@ -116,19 +116,19 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
+      <Route path="/signup" element={<Signup />} />
       <Route path="/frame-16" element={<FrameComponent />} />
-      <Route path="/frame-15" element={<FrameComponent1 />} />
-      <Route path="/frame-14" element={<FrameComponent2 />} />
-      <Route path="/frame-13" element={<FrameComponent3 />} />
+      <Route path="/project-summary-employee" element={<FrameComponent1 />} />
+      <Route path="/new-meeting" element={<FrameComponent2 />} />
+      <Route path="/new-project" element={<FrameComponent3 />} />
       <Route path="/profile-employee" element={<ProfileEmployee />} />
       <Route path="/profile-ceo" element={<ProfileCEO />} />
       <Route path="/meetings-ceo" element={<MeetingsCEO />} />
       <Route path="/projects-ceo" element={<ProjectsCEO />} />
       <Route path="/employees-ceo" element={<EmployeesCEO />} />
-      <Route path="/navigate-ceo" element={<NavigateCEO />} />
       <Route path="/home-ceo" element={<HomeCEO />} />
-      <Route path="/signup" element={<Signup />} />
       <Route path="/login" element={<Login />} />
+      <Route path="/navigate-ceo" element={<NavigateCEO />} />
       <Route path="/new-page" element={<NewPage />} />
     </Routes>
   );

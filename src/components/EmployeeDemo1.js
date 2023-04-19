@@ -9,19 +9,19 @@ const EmployeeDemo1 = ({ propLeft }) => {
   }, [propLeft]);
 
   return (
-    <div className="employee-demo5" style={employeeDemo1Style}>
-      <img className="employee-demo-child3" alt="" src="/ellipse-2.svg" />
-      <img className="image-7-icon5" alt="" src="/image-7@2x.png" />
-      <div className="name-lastname5">Name LastName</div>
-      <div className="position5">Position</div>
-      <div className="streak-of-projects5">Streak of Projects</div>
-      <div className="email-address5">Email Address</div>
-      <div className="phone-number5">Phone Number</div>
-      <img className="image-8-icon5" alt="" src="/image-8@2x.png" />
-      <img className="image-9-icon5" alt="" src="/image-9@2x.png" />
-      <img className="image-10-icon5" alt="" src="/image-10@2x.png" />
-      <img className="image-11-icon5" alt="" src="/image-11@2x.png" />
-      <img className="image-12-icon5" alt="" src="/image-12@2x.png" />
+    <div className="employee-demo8" style={employeeDemo1Style}>
+      <img className="employee-demo-child6" alt="" src="/ellipse-2.svg" />
+      <img className="image-7-icon8" alt="" src="/image-7@2x.png" />
+      <div className="name-lastname8">Name LastName</div>
+      <div className="position8">Position</div>
+      <div className="streak-of-projects8">Streak of Projects</div>
+      <div className="email-address8">Email Address</div>
+      <div className="phone-number8">Phone Number</div>
+      <img className="image-8-icon8" alt="" src="/image-8@2x.png" />
+      <img className="image-9-icon8" alt="" src="/image-9@2x.png" />
+      <img className="image-10-icon8" alt="" src="/image-10@2x.png" />
+      <img className="image-11-icon8" alt="" src="/image-11@2x.png" />
+      <img className="image-12-icon8" alt="" src="/image-12@2x.png" />
     </div>
   );
 };

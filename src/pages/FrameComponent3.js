@@ -12,7 +12,7 @@ const FrameComponent3 = () => {
   }, [navigate]);
 
   return (
-    <div className="background-root">
+    <div className="new-project">
       <div className="background1">
         <div className="background-child4" />
         <div className="background-child5" />

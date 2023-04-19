@@ -2,7 +2,7 @@
   position: absolute;
   top: 19px;
   left: 96px;
-  font-size: var(--font-size-6xl);
+  font-size: 25px;
   font-weight: 600;
   display: inline-block;
   width: 241px;
@@ -25,55 +25,66 @@
 .employees11,
 .employees12,
 .employees9 {
-  text-decoration: none;
   position: absolute;
-  top: 127px;
   left: 0;
   width: 408px;
-  height: 83px;
   overflow: hidden;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  color: inherit;
+}
+.employees9 {
+  top: 127px;
+  height: 83px;
+}
+.employees10 {
+  top: 210px;
+  height: 93px;
 }
 .employees10,
 .employees11,
 .employees12 {
   cursor: pointer;
-  top: 210px;
-  height: 93px;
+  text-decoration: none;
+  color: inherit;
 }
-.employees11,
-.employees12 {
+.employees11 {
   top: 303px;
   height: 103px;
 }
 .employees12 {
+  height: 103px;
   top: 406px;
 }
-.frame-child13,
-.frame-child14,
-.frame-child15 {
+.frame-child12 {
   position: absolute;
   top: 209.5px;
   left: -0.5px;
-  border-top: 1px solid var(--color-black);
+  border-top: 1px solid #000;
   box-sizing: border-box;
   width: 409px;
   height: 1px;
 }
-.frame-child14,
-.frame-child15 {
+.frame-child13 {
+  width: 409px;
+}
+.frame-child13,
+.frame-child14 {
+  position: absolute;
+  left: -0.5px;
+  border-top: 1px solid #000;
+  box-sizing: border-box;
+  height: 1px;
+}
+.frame-child13 {
   top: 302.5px;
 }
-.frame-child15 {
+.frame-child14 {
   top: 405.5px;
   width: 409.02px;
 }
-.frame-child16,
-.organize-your-co-group {
+.frame-child15 {
   position: absolute;
   top: 508px;
   left: 0;
@@ -81,16 +92,20 @@
   height: 3px;
 }
 .organize-your-co-group {
-  top: 10px;
-  border-radius: 0 var(--br-6xl) var(--br-6xl) 0;
-  background-color: var(--color-gray-100);
-  border: 1px solid var(--color-white);
+  position: absolute;
+  width: calc(100% - 1472px);
+  top: calc(50% - 502px);
+  right: 1472px;
+  left: 0;
+  border-radius: 0 25px 25px 0;
+  background-color: #1f282d;
+  border: 1px solid #fff;
   box-sizing: border-box;
   height: 987px;
   overflow: hidden;
   cursor: pointer;
   text-align: center;
-  font-size: var(--font-size-xl);
-  color: var(--color-white);
-  font-family: var(--font-jost);
+  font-size: 20px;
+  color: #fff;
+  font-family: Jost;
 }

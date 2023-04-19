@@ -3,7 +3,7 @@ import "./NewProject.css";
 
 const NewProject = () => {
   return (
-    <div className="new-meeting">
+    <div className="new-meeting1">
       <div className="new-meeting-child" />
       <div className="new-meetings">New Meetings</div>
       <TextField

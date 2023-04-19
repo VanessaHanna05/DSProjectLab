@@ -3,9 +3,9 @@ import "./NewProject1.css";
 
 const NewProject1 = () => {
   return (
-    <div className="new-project">
+    <div className="new-project1">
       <div className="new-project-child" />
-      <div className="new-project1">New Project</div>
+      <div className="new-project2">New Project</div>
       <TextField
         className="new-project-item"
         sx={{ width: 547.0919189453125 }}

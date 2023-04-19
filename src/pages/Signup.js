@@ -24,7 +24,7 @@ const Signup = () => {
       <img className="signup-item" alt="" src="/ellipse-18.svg" />
       <div className="instance-parent">
         <TextField
-          className="group-textfield"
+          className="frame-inner"
           sx={{ width: 272 }}
           color="primary"
           variant="standard"
@@ -38,7 +38,7 @@ const Signup = () => {
           required
         />
         <TextField
-          className="frame-child6"
+          className="group-textfield"
           sx={{ width: 347 }}
           color="primary"
           variant="standard"
@@ -49,7 +49,7 @@ const Signup = () => {
           margin="none"
         />
         <TextField
-          className="frame-child7"
+          className="frame-child1"
           sx={{ width: 274 }}
           color="primary"
           variant="standard"
@@ -63,7 +63,7 @@ const Signup = () => {
           required
         />
         <TextField
-          className="frame-child8"
+          className="frame-child2"
           sx={{ width: 353 }}
           color="primary"
           variant="standard"
@@ -75,7 +75,7 @@ const Signup = () => {
           required
         />
         <TextField
-          className="frame-child9"
+          className="frame-child3"
           sx={{ width: 274 }}
           color="primary"
           variant="standard"
@@ -97,7 +97,7 @@ const Signup = () => {
           required
         />
         <TextField
-          className="frame-child10"
+          className="frame-child4"
           sx={{ width: 353 }}
           color="primary"
           variant="standard"
@@ -120,7 +120,7 @@ const Signup = () => {
           required
         />
         <div className="employee">Employee</div>
-        <div className="ceo1">CEO</div>
+        <div className="ceo">CEO</div>
         <FormControlLabel
           className="check-box"
           label=""
@@ -186,7 +186,7 @@ const Signup = () => {
           Create
         </Button>
         <TextField
-          className="frame-child11"
+          className="frame-child5"
           sx={{ width: 272 }}
           color="primary"
           variant="standard"
@@ -197,7 +197,7 @@ const Signup = () => {
           margin="none"
           required
         />
-        <img className="frame-child12" alt="" src="/ellipse-18.svg" />
+        <img className="ellipse-icon" alt="" src="/ellipse-18.svg" />
       </div>
       <img className="signup-inner" alt="" src="/ellipse-18.svg" />
       <img className="signup-child1" alt="" src="/ellipse-18.svg" />

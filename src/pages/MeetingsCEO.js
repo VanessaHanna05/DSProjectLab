@@ -24,70 +24,95 @@ const MeetingsCEO = () => {
         />
         <div className="weekly-meetings">{`Weekly Meetings `}</div>
       </div>
-      <div className="meeting8" id="meeting sum">
-        <img className="meeting-child5" alt="" src="/rectangle-371.svg" />
-        <div className="meeting-1-at8">Meeting 1 at hh:mm on dd/mm</div>
-        <img className="image-23-icon8" alt="" src="/image-231@2x.png" />
-      </div>
-      <div className="meeting9" id="meeting sum">
-        <img className="meeting-child5" alt="" src="/rectangle-371.svg" />
-        <div className="meeting-1-at8">Meeting 1 at hh:mm on dd/mm</div>
-        <img className="image-23-icon8" alt="" src="/image-231@2x.png" />
-      </div>
-      <div className="meeting10" id="meeting sum">
-        <img className="meeting-child5" alt="" src="/rectangle-371.svg" />
-        <div className="meeting-1-at8">Meeting 1 at hh:mm on dd/mm</div>
-        <img className="image-23-icon8" alt="" src="/image-231@2x.png" />
-      </div>
-      <div className="meeting11" id="meeting sum">
-        <img className="meeting-child5" alt="" src="/rectangle-371.svg" />
-        <div className="meeting-1-at8">Meeting 1 at hh:mm on dd/mm</div>
-        <img className="image-23-icon8" alt="" src="/image-231@2x.png" />
-      </div>
-      <div className="meeting12" id="meeting sum">
-        <img className="meeting-child5" alt="" src="/rectangle-371.svg" />
-        <div className="meeting-1-at8">Meeting 1 at hh:mm on dd/mm</div>
-        <img className="image-23-icon8" alt="" src="/image-231@2x.png" />
-      </div>
       <div className="meeting13" id="meeting sum">
-        <img className="meeting-child5" alt="" src="/rectangle-371.svg" />
-        <div className="meeting-1-at8">Meeting 1 at hh:mm on dd/mm</div>
-        <img className="image-23-icon8" alt="" src="/image-231@2x.png" />
+        <img className="meeting-child10" alt="" src="/rectangle-371.svg" />
+        <div className="meeting-1-at13">Meeting 1 at hh:mm on dd/mm</div>
+        <img className="image-23-icon13" alt="" src="/image-231@2x.png" />
       </div>
       <div className="meeting14" id="meeting sum">
-        <img className="meeting-child5" alt="" src="/rectangle-371.svg" />
-        <div className="meeting-1-at8">Meeting 1 at hh:mm on dd/mm</div>
-        <img className="image-23-icon8" alt="" src="/image-231@2x.png" />
+        <img className="meeting-child10" alt="" src="/rectangle-371.svg" />
+        <div className="meeting-1-at13">Meeting 1 at hh:mm on dd/mm</div>
+        <img className="image-23-icon13" alt="" src="/image-2311@2x.png" />
       </div>
       <div className="meeting15" id="meeting sum">
-        <img className="meeting-child5" alt="" src="/rectangle-371.svg" />
-        <div className="meeting-1-at8">Meeting 1 at hh:mm on dd/mm</div>
-        <img className="image-23-icon8" alt="" src="/image-231@2x.png" />
+        <img className="meeting-child10" alt="" src="/rectangle-371.svg" />
+        <div className="meeting-1-at13">Meeting 1 at hh:mm on dd/mm</div>
+        <img className="image-23-icon13" alt="" src="/image-231@2x.png" />
       </div>
       <div className="meeting16" id="meeting sum">
-        <img className="meeting-child5" alt="" src="/rectangle-371.svg" />
-        <div className="meeting-1-at8">Meeting 1 at hh:mm on dd/mm</div>
-        <img className="image-23-icon8" alt="" src="/image-231@2x.png" />
+        <img className="meeting-child10" alt="" src="/rectangle-371.svg" />
+        <div className="meeting-1-at13">Meeting 1 at hh:mm on dd/mm</div>
+        <img className="image-23-icon13" alt="" src="/image-231@2x.png" />
       </div>
       <div className="meeting17" id="meeting sum">
-        <img className="meeting-child5" alt="" src="/rectangle-371.svg" />
-        <div className="meeting-1-at8">Meeting 1 at hh:mm on dd/mm</div>
-        <img className="image-23-icon8" alt="" src="/image-231@2x.png" />
+        <img className="meeting-child10" alt="" src="/rectangle-371.svg" />
+        <div className="meeting-1-at13">Meeting 1 at hh:mm on dd/mm</div>
+        <img className="image-23-icon13" alt="" src="/image-2311@2x.png" />
       </div>
       <div className="meeting18" id="meeting sum">
-        <img className="meeting-child5" alt="" src="/rectangle-371.svg" />
-        <div className="meeting-1-at8">Meeting 1 at hh:mm on dd/mm</div>
-        <img className="image-23-icon8" alt="" src="/image-231@2x.png" />
+        <img className="meeting-child10" alt="" src="/rectangle-371.svg" />
+        <div className="meeting-1-at13">Meeting 1 at hh:mm on dd/mm</div>
+        <img className="image-23-icon13" alt="" src="/image-231@2x.png" />
       </div>
       <div className="meeting19" id="meeting sum">
-        <img className="meeting-child5" alt="" src="/rectangle-371.svg" />
-        <div className="meeting-1-at8">Meeting 1 at hh:mm on dd/mm</div>
-        <img className="image-23-icon8" alt="" src="/image-231@2x.png" />
+        <img className="meeting-child10" alt="" src="/rectangle-371.svg" />
+        <div className="meeting-1-at13">Meeting 1 at hh:mm on dd/mm</div>
+        <img className="image-23-icon13" alt="" src="/image-231@2x.png" />
       </div>
-      <div className="meeting20">
-        <img className="meeting-child5" alt="" src="/rectangle-371.svg" />
-        <div className="meeting-1-at8">Meeting 1 at hh:mm on dd/mm</div>
-        <img className="image-23-icon20" alt="" src="/image-231@2x.png" />
+      <div className="meeting20" id="meeting sum">
+        <img className="meeting-child10" alt="" src="/rectangle-371.svg" />
+        <div className="meeting-1-at13">Meeting 1 at hh:mm on dd/mm</div>
+        <img className="image-23-icon13" alt="" src="/image-2311@2x.png" />
+      </div>
+      <div className="meeting21" id="meeting sum">
+        <img className="meeting-child10" alt="" src="/rectangle-371.svg" />
+        <div className="meeting-1-at13">Meeting 1 at hh:mm on dd/mm</div>
+        <img className="image-23-icon13" alt="" src="/image-231@2x.png" />
+      </div>
+      <div className="meeting22" id="meeting sum">
+        <img className="meeting-child10" alt="" src="/rectangle-371.svg" />
+        <div className="meeting-1-at13">Meeting 1 at hh:mm on dd/mm</div>
+        <img className="image-23-icon13" alt="" src="/image-231@2x.png" />
+      </div>
+      <div className="meeting23" id="meeting sum">
+        <img className="meeting-child10" alt="" src="/rectangle-371.svg" />
+        <div className="meeting-1-at13">Meeting 1 at hh:mm on dd/mm</div>
+        <img className="image-23-icon13" alt="" src="/image-231@2x.png" />
+      </div>
+      <div className="meeting24" id="meeting sum">
+        <img className="meeting-child10" alt="" src="/rectangle-371.svg" />
+        <div className="meeting-1-at13">Meeting 1 at hh:mm on dd/mm</div>
+        <img className="image-23-icon13" alt="" src="/image-231@2x.png" />
+      </div>
+      <div className="meeting25" id="meeting sum">
+        <img className="meeting-child10" alt="" src="/rectangle-371.svg" />
+        <div className="meeting-1-at13">Meeting 1 at hh:mm on dd/mm</div>
+        <img className="image-23-icon13" alt="" src="/image-2311@2x.png" />
+      </div>
+      <div className="meeting26" id="meeting sum">
+        <img className="meeting-child10" alt="" src="/rectangle-371.svg" />
+        <div className="meeting-1-at13">Meeting 1 at hh:mm on dd/mm</div>
+        <img className="image-23-icon13" alt="" src="/image-231@2x.png" />
+      </div>
+      <div className="meeting27" id="meeting sum">
+        <img className="meeting-child10" alt="" src="/rectangle-371.svg" />
+        <div className="meeting-1-at13">Meeting 1 at hh:mm on dd/mm</div>
+        <img className="image-23-icon13" alt="" src="/image-2311@2x.png" />
+      </div>
+      <div className="meeting28" id="meeting sum">
+        <img className="meeting-child10" alt="" src="/rectangle-371.svg" />
+        <div className="meeting-1-at13">Meeting 1 at hh:mm on dd/mm</div>
+        <img className="image-23-icon13" alt="" src="/image-231@2x.png" />
+      </div>
+      <div className="meeting29" id="meeting sum">
+        <img className="meeting-child10" alt="" src="/rectangle-371.svg" />
+        <div className="meeting-1-at13">Meeting 1 at hh:mm on dd/mm</div>
+        <img className="image-23-icon13" alt="" src="/image-2311@2x.png" />
+      </div>
+      <div className="meeting30" id="meeting sum">
+        <img className="meeting-child10" alt="" src="/rectangle-371.svg" />
+        <div className="meeting-1-at13">Meeting 1 at hh:mm on dd/mm</div>
+        <img className="image-23-icon13" alt="" src="/image-231@2x.png" />
       </div>
     </div>
   );

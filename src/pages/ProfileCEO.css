@@ -1,7 +1,7 @@
 .profile-ceo-child {
   position: absolute;
-  top: 50px;
-  left: 864px;
+  top: 124px;
+  left: 1047px;
   width: 143px;
   height: 136px;
   object-fit: cover;
@@ -18,17 +18,17 @@
   object-fit: cover;
 }
 .add-profile {
-  top: 135px;
-  left: 975px;
+  top: 209px;
+  left: 1158px;
   border-radius: 51px;
-  background-color: var(--color-white);
+  background-color: #fff;
   overflow: hidden;
 }
 .info,
 .info-child {
   position: absolute;
-  top: 243px;
-  left: 693px;
+  top: 317px;
+  left: 876px;
 }
 .info-child {
   height: 79.09%;
@@ -38,7 +38,9 @@
   bottom: 0;
   left: 0;
 }
-.label {
+.label,
+.label1 {
+  position: absolute;
   height: 20.91%;
   width: 40.99%;
   top: -10%;
@@ -46,47 +48,37 @@
   font-weight: 600;
   display: none;
 }
-.info1,
-.label,
-.label1 {
-  position: absolute;
-}
 .label1 {
   height: 25.71%;
   width: 87.16%;
   top: 37.14%;
   left: 7.25%;
-  font-weight: 600;
-  color: var(--color-black);
-  display: none;
+  color: #000;
 }
-.info1 {
-  top: 340px;
-  left: 694px;
+.info1,
+.info2 {
+  position: absolute;
+  top: 414px;
+  left: 877px;
   width: 483px;
   height: 70px;
-}
-.info2,
-.info3 {
-  position: absolute;
-  left: 693px;
 }
 .info2 {
-  top: 439px;
-  width: 483px;
-  height: 70px;
+  top: 513px;
+  left: 876px;
 }
-.info3 {
+.info3,
+.update-info-ceo-child {
   border: 0;
   background-color: transparent;
-  top: 538px;
+  position: absolute;
+  top: 612px;
+  left: 876px;
 }
 .update-info-ceo-child {
   cursor: pointer;
-  border: 0;
   padding: 0;
-  background-color: var(--color-darkslategray);
-  position: absolute;
+  background-color: #1b3048;
   height: 100%;
   width: 100%;
   top: 0;
@@ -101,10 +93,10 @@
   width: 85.46%;
   top: 25%;
   left: 7.42%;
-  font-size: var(--font-size-xl);
+  font-size: 20px;
   font-weight: 600;
-  font-family: var(--font-jost);
-  color: var(--color-white);
+  font-family: Jost;
+  color: #fff;
   text-align: center;
   display: inline-block;
 }
@@ -114,35 +106,30 @@
   padding: 0;
   background-color: transparent;
   position: absolute;
-  top: 680px;
-  left: 779px;
+  top: 754px;
+  left: 962px;
   width: 280px;
   height: 52px;
 }
-.new-page {
-  position: absolute;
-  top: -6417.06px;
-  left: 13740.66px;
-  width: 1440px;
-}
 .new-page,
-.new-page1,
-.profile-ceo {
-  background-color: var(--color-white);
-}
 .new-page1 {
   position: absolute;
   top: -6417.06px;
-  left: 11671.41px;
+  left: 13740.66px;
+  background-color: #fff;
   width: 1440px;
+}
+.new-page1 {
+  left: 11671.41px;
 }
 .profile-ceo {
   position: relative;
+  background-color: #fff;
   width: 100%;
   height: 1024px;
   overflow: hidden;
   text-align: left;
-  font-size: var(--font-size-xl);
-  color: var(--color-gray-300);
-  font-family: var(--font-jost);
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.47);
+  font-family: Jost;
 }

@@ -1,16 +1,16 @@
 .login-box-child {
   position: absolute;
-  top: -1.5px;
-  left: -1.5px;
-  border-radius: var(--br-28xl);
+  top: calc(50% - 340px);
+  left: calc(50% - 344px);
+  border-radius: 47px;
   width: 688px;
   height: 680px;
 }
 .login1,
 .welcome-back {
   position: absolute;
-  top: 19px;
-  left: 269px;
+  top: calc(50% - 319.5px);
+  left: calc(50% - 73.5px);
   letter-spacing: -0.02em;
   font-weight: 500;
   display: inline-block;
@@ -18,9 +18,9 @@
   height: 59px;
 }
 .welcome-back {
-  top: 97px;
-  left: 228px;
-  font-size: var(--font-size-11xl);
+  top: calc(50% - 241.5px);
+  left: calc(50% - 114.5px);
+  font-size: 30px;
   font-weight: 600;
   width: 230px;
   height: 58px;
@@ -31,24 +31,28 @@
   border: 0;
   background-color: transparent;
   position: absolute;
-  top: 178px;
-  left: 112px;
+}
+.login-box-item {
+  top: calc(50% - 160.5px);
+  left: calc(50% - 230.5px);
 }
 .login-box-child1,
 .login-box-inner {
-  top: 279px;
-  left: 107px;
+  left: calc(50% - 235.5px);
+}
+.login-box-inner {
+  top: calc(50% - 59.5px);
 }
 .login-box-child1 {
-  top: 365px;
+  top: calc(50% + 26.5px);
 }
 .if-you-are {
   position: absolute;
-  top: 542px;
-  left: 142px;
-  font-size: var(--font-size-xl);
+  top: calc(50% + 203.5px);
+  left: calc(50% - 200.5px);
+  font-size: 20px;
   letter-spacing: -0.02em;
-  color: var(--color-black);
+  color: #000;
   display: inline-block;
   width: 402px;
   height: 24px;
@@ -56,57 +60,58 @@
 .group-button,
 .image-24 {
   position: absolute;
-  top: 608px;
-  left: 290px;
+  top: calc(50% + 269.5px);
+  left: calc(50% - 52.5px);
 }
 .image-24 {
-  top: 186px;
-  left: 52px;
+  top: calc(50% - 152.5px);
+  left: calc(50% - 290.5px);
   width: 55px;
   height: 43px;
+}
+.image-25-icon {
+  top: calc(50% - 51.5px);
+  left: calc(50% - 293.5px);
+  width: 41px;
+  height: 42px;
 }
 .image-25-icon,
 .image-26-icon,
 .image-27-icon {
   position: absolute;
-  top: 287px;
-  left: 49px;
-  width: 41px;
-  height: 42px;
   object-fit: cover;
 }
-.image-26-icon,
-.image-27-icon {
-  top: 189px;
-  left: 52px;
+.image-26-icon {
+  top: calc(50% - 149.5px);
+  left: calc(50% - 290.5px);
   width: 38px;
   height: 36px;
 }
 .image-27-icon {
-  top: 373px;
-  left: 55px;
+  top: calc(50% + 34.5px);
+  left: calc(50% - 287.5px);
   width: 36px;
   height: 37px;
 }
 .login-box-child2,
 .login-box-child3 {
   position: absolute;
-  top: 451px;
-  left: 167px;
+  top: calc(50% + 112.5px);
+  left: calc(50% - 175.5px);
   cursor: pointer;
 }
 .login-box-child3 {
-  top: 448px;
-  left: 371px;
+  top: calc(50% + 109.5px);
+  left: calc(50% + 28.5px);
 }
 .login-box {
   position: absolute;
-  top: 174px;
-  left: 444px;
+  top: calc(50% - 338px);
+  left: calc(50% - 343px);
   width: 685px;
   height: 677px;
   text-align: center;
-  font-size: var(--font-size-31xl);
-  color: var(--color-darkslategray);
-  font-family: var(--font-encode-sans-expanded);
+  font-size: 50px;
+  color: #1b3048;
+  font-family: "Encode Sans Expanded";
 }

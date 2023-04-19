@@ -1,63 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jim+Nightshade:wght@400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 
 body {
   margin: 0;
   line-height: normal;
-}
-:root {
-  /* fonts */
-  --font-inter: Inter;
-  --font-jost: Jost;
-  --font-jim-nightshade: "Jim Nightshade";
-  --font-encode-sans-expanded: "Encode Sans Expanded";
-
-  /* font sizes */
-  --font-size-11xl: 30px;
-  --font-size-21xl: 40px;
-  --font-size-26xl: 45px;
-  --font-size-31xl: 50px;
-  --font-size-xl: 20px;
-  --font-size-smi: 13px;
-  --font-size-mid: 17px;
-  --font-size-6xl: 25px;
-  --font-size-mini: 15px;
-  --font-size-xs: 12px;
-
-  /* Colors */
-  --color-gray-100: #1f282d;
-  --color-gray-200: rgba(0, 0, 0, 0.56);
-  --color-gray-300: rgba(0, 0, 0, 0.47);
-  --color-gray-400: rgba(0, 0, 0, 0.24);
-  --color-white: #fff;
-  --color-steelblue-100: #3b597d;
-  --color-cornflowerblue: #17a6fe;
-  --color-black: #000;
-  --color-dodgerblue: #1f85ec;
-  --color-whitesmoke-100: #f8f8f8;
-  --color-whitesmoke-200: #f6f6f6;
-  --color-whitesmoke-300: #e7ebed;
-  --color-darkslategray: #1b3048;
-  --color-gainsboro: #d9d9d9;
-  --color-lightblue: #a8c9da;
-  --color-honeydew: #d3e8d3;
-  --color-crimson: #d61d1d;
-
-  /* border radiuses */
-  --br-33xl: 52px;
-  --br-4xs: 9px;
-  --br-3xl: 22px;
-  --br-2xl: 21px;
-  --br-8xs: 5px;
-  --br-14xl: 33px;
-  --br-29xl: 48px;
-  --br-41xl: 60px;
-  --br-10xl: 29px;
-  --br-8xl: 27px;
-  --br-6xl: 25px;
-  --br-23xl: 42px;
-  --br-28xl: 47px;
 }

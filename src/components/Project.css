@@ -1,4 +1,4 @@
-.project-name7 {
+.project-name10 {
   position: absolute;
   top: 6px;
   left: 38px;
@@ -7,19 +7,19 @@
   width: 255px;
   height: 32px;
 }
-.project-name-wrapper4 {
+.project-name-wrapper7 {
   position: absolute;
   top: 0;
   left: 0;
-  border-radius: var(--br-2xl) var(--br-2xl) 0 0;
-  background-color: var(--color-steelblue-100);
+  border-radius: 21px 21px 0 0;
+  background-color: #3b597d;
   width: 332px;
   height: 33px;
   text-align: center;
-  font-size: var(--font-size-xl);
-  color: var(--color-white);
+  font-size: 20px;
+  color: #fff;
 }
-.client-demo-child39 {
+.client-demo-child57 {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -27,60 +27,60 @@
   right: 0;
   bottom: 0;
   left: 0;
-  border-radius: var(--br-8xs);
-  background-color: var(--color-white);
-  border: 1px solid var(--color-gray-400);
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.24);
   box-sizing: border-box;
 }
-.benefits29 {
+.benefits41 {
   text-decoration: underline;
 }
-.benefits28 {
+.benefits40 {
   height: 18.92%;
   width: 91.15%;
   top: 68.92%;
   left: 4.13%;
 }
-.benefits28,
-.client-name21,
-.location21 {
+.benefits40,
+.client-name30,
+.location30 {
   position: absolute;
   font-weight: 600;
   display: inline-block;
 }
-.client-name21 {
+.client-name30 {
   height: 22.3%;
   width: 55.46%;
   top: 11.49%;
   left: 21.24%;
-  font-size: var(--font-size-xl);
+  font-size: 20px;
   text-align: center;
 }
-.location21 {
+.location30 {
   height: 18.92%;
   width: 91.15%;
   top: 50%;
   left: 4.13%;
   text-decoration: underline;
 }
-.checkbox-1-icon21,
-.client-demo-child40 {
+.checkbox-1-icon30,
+.client-demo-child58 {
   position: absolute;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
   object-fit: cover;
 }
-.client-demo-child40 {
+.client-demo-child58 {
   height: 22.3%;
   width: 11.21%;
   top: 11.49%;
   right: 80.24%;
   bottom: 66.22%;
   left: 8.55%;
-  border-radius: var(--br-4xs);
+  border-radius: 9px;
 }
-.checkbox-1-icon21 {
+.checkbox-1-icon30 {
   height: 11.49%;
   width: 4.13%;
   top: 16.89%;
@@ -88,14 +88,14 @@
   bottom: 71.62%;
   left: 69.03%;
 }
-.client-demo21 {
+.client-demo30 {
   position: absolute;
   top: 72px;
   left: 15px;
   width: 297px;
   height: 135px;
 }
-.client-demo-child42 {
+.client-demo-child60 {
   position: absolute;
   height: 22.3%;
   width: 11.21%;
@@ -103,15 +103,15 @@
   right: 80.24%;
   bottom: 66.22%;
   left: 8.55%;
-  border-radius: var(--br-4xs);
+  border-radius: 9px;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
   object-fit: cover;
   display: none;
 }
-.client-demo22,
-.client-demo23 {
+.client-demo31,
+.client-demo32 {
   position: absolute;
   top: 236px;
   left: 13px;
@@ -119,23 +119,23 @@
   height: 133px;
   display: none;
 }
-.client-demo23 {
+.client-demo32 {
   top: 403px;
   height: 130px;
 }
-.project7 {
+.project10 {
   position: absolute;
-  top: 221px;
-  left: 46px;
-  border-radius: var(--br-2xl);
-  background-color: var(--color-whitesmoke-100);
+  top: calc(50% - 291px);
+  left: calc(50% - 894px);
+  border-radius: 21px;
+  background-color: #f8f8f8;
   width: 332px;
   height: 241px;
   text-align: left;
-  font-size: var(--font-size-smi);
-  color: var(--color-black);
-  font-family: var(--font-jost);
+  font-size: 13px;
+  color: #000;
+  font-family: Jost;
 }
-.project7:hover {
+.project10:hover {
   box-shadow: 0 4px 4px rgba(250, 250, 11, 0.91);
 }

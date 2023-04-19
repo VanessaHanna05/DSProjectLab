@@ -1,16 +1,16 @@
 .new-project-child {
   position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-14xl);
-  background-color: var(--color-white);
+  top: calc(50% - 318.5px);
+  left: calc(50% - 311.5px);
+  border-radius: 33px;
+  background-color: #fff;
   width: 623px;
   height: 637px;
 }
-.new-project1 {
+.new-project2 {
   position: absolute;
-  top: 29px;
-  left: 165px;
+  top: calc(50% - 289.5px);
+  left: calc(50% - 146.5px);
   font-weight: 300;
   display: inline-block;
   width: 307.92px;
@@ -23,61 +23,67 @@
   border: 0;
   background-color: transparent;
   position: absolute;
-  top: 301.46px;
-  left: 40.11px;
 }
-.new-project-child1,
-.new-project-child2,
+.new-project-inner,
+.new-project-item {
+  left: calc(50% - 271.39px);
+}
+.new-project-item {
+  top: calc(50% - 17.04px);
+}
 .new-project-inner {
-  top: 180.26px;
+  top: calc(50% - 138.24px);
 }
-.new-project-child1,
-.new-project-child2 {
-  top: 417.64px;
-  left: 38.18px;
+.new-project-child1 {
+  top: calc(50% + 99.14px);
+  left: calc(50% - 273.32px);
 }
 .new-project-child2 {
-  top: 180.26px;
-  left: 318.98px;
+  top: calc(50% - 138.24px);
+  left: calc(50% + 7.48px);
 }
 .image-18-icon1 {
   position: absolute;
-  top: 276px;
-  left: 559px;
+  top: calc(50% - 42.5px);
+  left: calc(50% + 247.5px);
   width: 20.33px;
   height: 21.03px;
   object-fit: cover;
+}
+.image-16-icon {
+  left: calc(50% + 241.5px);
 }
 .image-16-icon,
 .image-17-icon,
 .image-19-icon {
   position: absolute;
-  top: 390px;
-  left: 553px;
-  width: 23.24px;
-  height: 24.04px;
   object-fit: cover;
 }
-.image-16-icon,
-.image-17-icon {
-  top: 152px;
+.image-19-icon {
+  top: calc(50% + 71.5px);
+  left: calc(50% + 241.5px);
+  width: 23.24px;
+  height: 24.04px;
+}
+.image-16-icon {
+  top: calc(50% - 166.5px);
   width: 32px;
   height: 26px;
 }
 .image-17-icon {
-  top: 160px;
-  left: 275px;
+  top: calc(50% - 158.5px);
+  left: calc(50% - 36.5px);
   width: 20px;
   height: 18px;
 }
-.new-project {
+.new-project1 {
   position: absolute;
-  top: 163px;
-  left: 408px;
+  top: calc(50% - 349px);
+  left: calc(50% - 312px);
   width: 623px;
   height: 637px;
   text-align: center;
-  font-size: var(--font-size-21xl);
-  color: var(--color-black);
-  font-family: var(--font-jost);
+  font-size: 40px;
+  color: #000;
+  font-family: Jost;
 }

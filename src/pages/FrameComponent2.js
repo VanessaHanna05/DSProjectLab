@@ -3,7 +3,7 @@ import "./FrameComponent2.css";
 
 const FrameComponent2 = () => {
   return (
-    <div className="background-parent">
+    <div className="new-meeting">
       <div className="background">
         <div className="background-child" />
         <div className="background-item" />
